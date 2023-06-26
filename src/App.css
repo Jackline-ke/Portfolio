@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+/* Stylingthe last h2 tag by giving margin bottom */
+.progress-bar-container:not(:last-child) {
+  margin-bottom: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Styling the border and box
+effect of the progress bar*/
+.progress-bar {
+  width: 800px;
+  height: 5px;
+  border: 1px solid #565656;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(245, 159, 0);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Stylingthe background color of each
+animation and border radius */
+.percentage {
+  display: block;
+  height: 100%;
+  background-color: #ffbf00;
+  border-radius: 5px;
+  animation: progress 1500ms ease-in 1;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.html {
+  width: 90%;
 }
-
-.App-link {
-  color: #61dafb;
+.css {
+  width: 70%;
 }
-
-@keyframes App-logo-spin {
+.js {
+  width: 80%;
+}
+.ruby {
+  width: 60%;
+}
+/* Animating the progress bar by initially starting from 0*/
+@keyframes progress {
   from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+    width: 0;
   }
 }
+

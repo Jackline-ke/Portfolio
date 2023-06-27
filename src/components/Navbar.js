@@ -7,7 +7,7 @@ function Navbar (){
     return(
         <div className="text-black fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50 ">
             <div className="container mx-auto">
-                <div className="w-full bg-amber-500 h-[60px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex text-2xl text-white">
+                <div className="w-full bg-zinc-900 h-[60px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex text-2xl text-white">
                     <Link to="home" smooth={true} offset={-200} className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center ml-2">
                         <BiHomeAlt />
                     </Link>

@@ -9,17 +9,17 @@ function About(){
     useEffect( () =>{
         AOS.init({duration: 2000});
     }, [])
-    // const [ref, inView] = useInView({
-    //     threshold: 0.5,
-    // });
+    const [ref, inView] = useInView({
+        threshold: 0.5,
+    });
     return(
         <div id="about" className="section text-white" ref={ref}>
             <div className="container mx-auto">
                 <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen ">
-                    <div className="flex-1 mix-blend-lighten bg-top" data-aos="zoom-in">
+                    <div className="flex-1 mix-blend-lighten bg-top" data-aos="fade-right">
                         <img src={profile}/>
                     </div>
-                    <div className="flex-1">
+                    <div className="flex-1" data-aos="fade-left">
                         <h2 className="h2 text-accent">About Me.</h2>
                         <h3 className="h3 mb-4">A Frontend Developer and a UI/UX Designer who designs and implement high end web application.</h3>
                         <p className="mb-4">A Frontend Developer and a UI/UX Designer who designs and implement high end web application.A Frontend Developer and a UI/UX Designer who designs and implement high end web application.</p>

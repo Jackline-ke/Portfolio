@@ -36,10 +36,10 @@ function Banner(){
                             <a href="#" className="text-gradient btn-link">My Resume</a>
                         </div>
                         <div className="flex text-[20px] max-w-max mx-auto lg:mx-0">
-                            <a href="#"><FaGithub /></a>
-                            <a href="#" className="ml-4"><FaLinkedin /></a>
-                            <a href="#" className="ml-4"><FaTwitter /></a>
-                            <a href="#" className="ml-4"><FaMedium /></a>
+                            <a href="https://github.com/Jackline-ke"><FaGithub /></a>
+                            <a href="https://www.linkedin.com/in/jackline-adhiambo-5049631a7/" className="ml-4"><FaLinkedin /></a>
+                            <a href="https://twitter.com/JacklineOdhia19" className="ml-4"><FaTwitter /></a>
+                            <a href="https://medium.com/@antoninahodhiambo" className="ml-4"><FaMedium /></a>
                         </div>
                     </div>
                     <div data-aos="zoom-in" className="hidden lg:flex flex-1 max-w-[320px] lgmax-w-[482px]">

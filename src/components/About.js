@@ -15,8 +15,10 @@ function About(){
                     </div>
                     <div className="flex-1" data-aos="fade-left">
                         <h2 className="h2 text-accent">About Me.</h2>
-                        <h3 className="h3 mb-4">A Frontend Developer and a UI/UX Designer who designs and implement high end web application.</h3>
-                        <p className="mb-4">A Frontend Developer and a UI/UX Designer who designs and implement high end web application.A Frontend Developer and a UI/UX Designer who designs and implement high end web application.</p>
+                        <p className="mb-4">Hello! I'm a passionate Software Engineer with a strong background in UI/UX design,
+                            full stack development, and a solid foundation in Information Technology. With my 
+                            expertise in IT, I bring a comprehensive understanding of the technical landscape 
+                            and its applications in software development.</p>
                         <a href="#" className="text-gradient btn-link">My Resume</a>
                     </div>
                 </div>

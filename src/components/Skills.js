@@ -19,8 +19,8 @@ function Skills(){
                 <div className="flex justify-center mt-2">
                     <h2 className="h2 text-accent">My Skills</h2>
                 </div>
-                <div id="skills" className="flex justify-center">
-                    <div className="w-9/12 p-4 grid grid-cols-3  border border-orange-400 rounded-lg shadow-2xl place-items-center">
+                <div className="flex justify-center">
+                    <div className="w-9/12 p-4 grid grid-cols-3  border border-orange-400 rounded-lg shadow-lg shadow-orange-300/50 place-items-center">
                         <div className="grid place-items-center" data-aos="zoom-in">
                             <img src={html} alt="html" className="" width="70" height="70"/>
                             <h4 className="pt-2 font-semibold">HTML</h4>
